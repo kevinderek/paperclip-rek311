@@ -43,7 +43,7 @@ patchedDependencies:
     hash: gtvuasrdnibltgd6jvdqufvsdy
     path: patches/acpx@0.12.0.patch
   acpx@0.13.1:
-    hash: ikfco27aeue26z63kex2z5d5ce
+    hash: jxpmkytjzjh3vghha3pybg7k54
     path: patches/acpx@0.13.1.patch
   embedded-postgres@18.1.0-beta.16:
     hash: 55uhvnotpqyiy37rn3pqpukhei
@@ -508,7 +508,7 @@ importers:
         version: 0.156.0
       acpx:
         specifier: 0.13.1
-        version: 0.13.1(patch_hash=ikfco27aeue26z63kex2z5d5ce)
+        version: 0.13.1(patch_hash=jxpmkytjzjh3vghha3pybg7k54)
       ajv:
         specifier: ^8.20.0
         version: 8.20.0
@@ -525,8 +525,8 @@ importers:
         specifier: ^4.0.1
         version: 4.0.1
       smol-toml:
-        specifier: ^1.4.2
-        version: 1.8.0
+        specifier: ^1.9.0
+        version: 1.9.0
     devDependencies:
       '@paperclipai/paperclip-eval-kernel':
         specifier: workspace:*
@@ -960,7 +960,7 @@ importers:
         version: 8.18.0
       acpx:
         specifier: 0.13.1
-        version: 0.13.1(patch_hash=ikfco27aeue26z63kex2z5d5ce)
+        version: 0.13.1(patch_hash=jxpmkytjzjh3vghha3pybg7k54)
       ajv:
         specifier: ^8.20.0
         version: 8.20.0
@@ -1025,8 +1025,8 @@ importers:
         specifier: ^0.35.4
         version: 0.35.4(@types/node@24.13.3)
       smol-toml:
-        specifier: ^1.4.2
-        version: 1.8.0
+        specifier: ^1.9.0
+        version: 1.9.0
       ssh2:
         specifier: ^1.17.0
         version: 1.17.0
@@ -8323,8 +8323,8 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  smol-toml@1.8.0:
-    resolution: {integrity: sha512-kCZr2V3ch9i00x8zXRhjUNVcjG9ijES5dDudkXvUVCT5QlJNQWElSJdZqyPemffHoLNUYwOcou0Fy+ojN0uHSQ==}
+  smol-toml@1.9.0:
+    resolution: {integrity: sha512-hpd+HLON7HdZXqYchMM/+LaTTbdK0AU3NngIJ4KVyWbY9bfQqdL9cD+4yf6dUoU2Ap4VsU0JkQi6FxAI1B2mXQ==}
     engines: {node: '>= 18'}
 
   sonic-boom@4.2.1:
@@ -13348,7 +13348,7 @@ snapshots:
       - bare-buffer
       - react-native-b4a
 
-  acpx@0.13.1(patch_hash=ikfco27aeue26z63kex2z5d5ce):
+  acpx@0.13.1(patch_hash=jxpmkytjzjh3vghha3pybg7k54):
     dependencies:
       '@agentclientprotocol/sdk': 1.4.0(zod@4.4.3)
       commander: 15.0.0
@@ -16600,7 +16600,7 @@ snapshots:
       - bare-buffer
       - react-native-b4a
 
-  smol-toml@1.8.0: {}
+  smol-toml@1.9.0: {}
 
   sonic-boom@4.2.1:
     dependencies:
